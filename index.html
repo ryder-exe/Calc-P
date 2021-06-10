@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+    <!-- calulator.css-->
+    <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="copyright">
+            <div>
+            <p>Ⓒ copyright issused in order by</p>
+            <p><b>Ryder-exe</b></p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="calculator">
+                <div class="calculator-header"></div>
+                <div class="calculator-body">
+                    <div>
+                        <h1 id="output"></h1>
+                        <p id="input"></p>
+                    </div>  
+                </div>
+                <div class="calculator-footer">
+                    <div class="symbol" onclick="calculator('C')"><span>C</span></div>
+                    <div class="symbol" onclick="calculator('AC')"><span>AC</span></div>
+                    <div class="symbol" onclick="calculator('%')"><span>%</span></div>
+                    <div class="symbol" onclick="calculator('/')"><span>/</span></div>
+                    <div onclick="calculator('7')"><span>7</span></div>
+                    <div onclick="calculator('8')"><span>8</span></div>
+                    <div onclick="calculator('9')"><span>9</span></div>
+                    <div class="symbol" onclick="calculator('*')"><span>x</span></div>
+                    <div onclick="calculator('4')"><span>4</span></div>
+                    <div onclick="calculator('5')"><span>5</span></div>
+                    <div onclick="calculator('6')"><span>6</span></div>
+                    <div class="symbol" onclick="calculator('-')"><span>-</span></div>
+                    <div onclick="calculator('1')"><span>1</span></div>
+                    <div onclick="calculator('2')"><span>2</span></div>
+                    <div onclick="calculator('3')"><span>3</span></div>
+                    <div class="symbol" onclick="calculator('+')"><span>+</span></div> 
+                    <div onclick="calculator('0')"><span>0</span></div>
+                    <div onclick="calculator('00')"><span>00</span></div>
+                    <div onclick="calculator('.')"><span>.</span></div>
+                    <div class="symbol-dark" onclick="calculator('=')"><span>=</span></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.2/math.js"></script>
+        <script src="main2.js"></script>
+    </body>
+</html>
